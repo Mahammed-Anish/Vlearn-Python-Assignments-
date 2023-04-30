@@ -1,4 +1,5 @@
 name = input("Enter a string : ")
+name = name.lower()
 lst = []
 for i in range(len(name)):
     if name[i] not in lst:
